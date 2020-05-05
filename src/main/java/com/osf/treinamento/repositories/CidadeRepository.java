@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.osf.treinamento.domain.Cidade;
 
-@Repository 
-public interface CidadeRepository extends JpaRepository<Cidade, Integer> {	
-	
+@Repository
+public interface CidadeRepository extends JpaRepository<Cidade, Integer> {
+
 }

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.osf.treinamento.domain.Cliente;
 
-@Repository 
-public interface ClienteRepository extends JpaRepository<Cliente, Integer> {	
-	
+@Repository
+public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
+
 }

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.osf.treinamento.domain.Pedido;
 
-@Repository 
-public interface PedidoRepository extends JpaRepository<Pedido, Integer> {	
-	
+@Repository
+public interface PedidoRepository extends JpaRepository<Pedido, Integer> {
+
 }

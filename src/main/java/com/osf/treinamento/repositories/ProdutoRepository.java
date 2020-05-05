@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.osf.treinamento.domain.Produto;
 
-@Repository 
-public interface ProdutoRepository extends JpaRepository<Produto, Integer> {	
-	
+@Repository
+public interface ProdutoRepository extends JpaRepository<Produto, Integer> {
+
 }
